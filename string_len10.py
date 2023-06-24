@@ -8,4 +8,11 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+  
+    return s[0]==s[2]
+s = "oco"
+print(main(s))
+s = "ocococo"
+print(main(s))
+s = "salom"
+print(main(s))
