@@ -9,4 +9,9 @@ def main(num1, num2):
     Returns:
         str: answer
     """
-    return
+    
+    return f"{int(num1)+int(num2)}"
+num1,num2 = "12","18"
+print(main(num1,num2))
+num1,num2 = "125","189"
+print(main(num1,num2))
