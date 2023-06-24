@@ -7,4 +7,11 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    return
+    s=""
+    if len(s1)>len(s2):
+        s=s2
+    else:
+        s=s1
+    return s
+s1,s2 = "code","academy"
+print(main(s1,s2))
